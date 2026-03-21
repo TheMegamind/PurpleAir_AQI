@@ -1,0 +1,91 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "description": "Enter your PurpleAir API key and choose how to locate your sensor.",
+        "data": {
+          "api_key": "API Key",
+          "name": "Name",
+          "device_search": "Search by location"
+        },
+        "data_description": {
+          "name": "A name to identify this location (e.g. Home, Cabin, Office)",
+          "device_search": "Enable to discover nearby sensors automatically. Disable to enter a specific private sensor index."
+        }
+      },
+      "by_coordinates": {
+        "description": "Set the search center and parameters for finding nearby sensors.",
+        "data": {
+          "latitude": "Latitude",
+          "longitude": "Longitude",
+          "search_range": "Search radius",
+          "unit": "Distance unit",
+          "weighted": "Distance-weighted averaging",
+          "conversion": "PM\u2082.\u2085 conversion formula",
+          "pm25_averaging": "PM\u2082.\u2085 averaging period",
+          "update_interval": "Update interval (minutes)"
+        },
+        "data_description": {
+          "weighted": "Weight sensor readings by inverse distance from the search center.",
+          "conversion": "Formula applied to correct raw PM\u2082.\u2085 readings before AQI calculation.",
+          "pm25_averaging": "Time window for PM\u2082.\u2085 readings. Has no effect when using LRAPA, Woodsmoke, or CF=1 conversions, which require real-time CF=1 data."
+        }
+      },
+      "by_sensor": {
+        "description": "Enter the index and optional read key for your private PurpleAir sensor.",
+        "data": {
+          "sensor_index": "Sensor index",
+          "read_key": "Read key",
+          "conversion": "PM\u2082.\u2085 conversion formula",
+          "pm25_averaging": "PM\u2082.\u2085 averaging period",
+          "update_interval": "Update interval (minutes)"
+        },
+        "data_description": {
+          "read_key": "Required for private sensors only.",
+          "conversion": "Formula applied to correct raw PM\u2082.\u2085 readings before AQI calculation.",
+          "pm25_averaging": "Time window for PM\u2082.\u2085 readings. Has no effect when using LRAPA, Woodsmoke, or CF=1 conversions, which require real-time CF=1 data."
+        }
+      }
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "description": "Adjust search and calculation settings. Changes take effect immediately on save.",
+        "data": {
+          "latitude": "Latitude",
+          "longitude": "Longitude",
+          "search_range": "Search radius",
+          "unit": "Distance unit",
+          "weighted": "Distance-weighted averaging",
+          "conversion": "PM\u2082.\u2085 conversion formula",
+          "pm25_averaging": "PM\u2082.\u2085 averaging period",
+          "update_interval": "Update interval (minutes)",
+          "name": "Name"
+        },
+        "data_description": {
+          "weighted": "Weight sensor readings by inverse distance from the search center.",
+          "conversion": "Formula applied to correct raw PM\u2082.\u2085 readings before AQI calculation.",
+          "pm25_averaging": "Time window for PM\u2082.\u2085 readings. Has no effect when using LRAPA, Woodsmoke, or CF=1 conversions, which require real-time CF=1 data.",
+          "name": "A name to identify this location (e.g. Home, Cabin, Office)"
+        }
+      }
+    }
+  },
+  "entity": {
+    "sensor": {
+      "aqi": { "name": "AQI" },
+      "aqi_delta": { "name": "AQI Delta" },
+
+      "category": { "name": "Category" },
+      "aqi_color": { "name": "AQI Color" },
+      "conversion": { "name": "Conversion" },
+      "health_advisory": { "name": "Health Advisory" },
+      "health_status": { "name": "Health Status" },
+      "sites": { "name": "Sites" }
+    },
+    "number": {
+      "update_interval": { "name": "Update Interval" }
+    }
+  }
+}

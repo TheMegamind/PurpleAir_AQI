@@ -1,0 +1,12 @@
+{
+  "domain": "purpleair_aqi",
+  "name": "PurpleAir AQI",
+  "codeowners": ["@TheMegamind"],
+  "config_flow": true,
+  "documentation": "https://github.com/TheMegamind/PurpleAir/blob/main/README.md",
+  "integration_type": "service",
+  "iot_class": "cloud_polling",
+  "loggers": ["custom_components.purpleair_aqi"],
+  "requirements": [],
+  "version": "1.0.0"
+}
