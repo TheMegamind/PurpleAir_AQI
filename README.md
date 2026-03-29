@@ -19,7 +19,7 @@
 [![GitHub release](https://img.shields.io/github/v/release/TheMegamind/PurpleAir_AQI)](https://github.com/TheMegamind/PurpleAir_AQI/releases)
 [![GitHub last commit](https://img.shields.io/github/last-commit/TheMegamind/PurpleAir_AQI)](https://github.com/TheMegamind/PurpleAir_AQI/commits/)
 [![HACS Custom](https://img.shields.io/badge/HACS-Custom-orange.svg)](https://hacs.xyz)
-[![Home Assistant](https://img.shields.io/badge/Home%20Assistant-2026.4%2B-blue?logo=home-assistant)](https://www.home-assistant.io)
+[![Home Assistant](https://img.shields.io/badge/Home%20Assistant-2024.4%2B-blue?logo=home-assistant)](https://www.home-assistant.io)
 [![Python](https://img.shields.io/badge/Python-3.14%2B-blue?logo=python&logoColor=white)](https://www.python.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
