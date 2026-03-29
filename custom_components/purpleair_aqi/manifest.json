@@ -6,8 +6,8 @@
   "documentation": "https://github.com/TheMegamind/PurpleAir_AQI/blob/main/README.md",
   "integration_type": "service",
   "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/TheMegamind/PurpleAir_AQI/issues",
   "loggers": ["custom_components.purpleair_aqi"],
   "requirements": [],
-  "issue_tracker": "https://github.com/TheMegamind/PurpleAir_AQI/issues",
   "version": "1.0.0"
 }
