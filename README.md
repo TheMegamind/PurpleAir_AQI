@@ -71,7 +71,7 @@ For the official EPA AQI color scale and health guidance, see [AirNow AQI Basics
 
 ## 📦 Installation (HACS – Custom Repository)
 
-> *This integration is currently in beta and not listed in the HACS store.*
+> *This integration has moved to Release in a new public repository and is in the process of being submitted to  HACS.*
 
 1. Open **HACS → Integrations → Custom repositories**
 2. Add this url:
