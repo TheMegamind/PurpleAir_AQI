@@ -1,7 +1,7 @@
 <table>
 <tr>
 <td width="100">
-<img src="https://github.com/TheMegamind/PurpleAir/blob/main/assets/PurpleAir.png"
+<img src="https://github.com/TheMegamind/PurpleAir_AQI/blob/main/assets/PurpleAir.png"
      width="100" alt="PurpleAir Logo">
 </td>
 <td>
