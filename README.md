@@ -233,3 +233,4 @@ MIT License — see `LICENSE`.
 * **PurpleAir®** name and logo are trademarks of **PurpleAir, Inc.**
 * **Home Assistant®** name and logo are trademarks of **Nabu Casa, Inc.**
 * This project is **independently maintained**, and not affiliated with or endorsed by PurpleAir or Nabu Casa.
+* This project's code and documentation were reviewed and refined with the assistance of [Claude AI](https://claude.ai) (Anthropic).
