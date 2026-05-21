@@ -9,5 +9,5 @@
   "issue_tracker": "https://github.com/TheMegamind/PurpleAir_AQI/issues",
   "loggers": ["custom_components.purpleair_aqi"],
   "requirements": [],
-  "version": "1.0.0"
+  "version": "1.0.4"
 }

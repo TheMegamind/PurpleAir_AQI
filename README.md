@@ -18,7 +18,7 @@
 
 [![GitHub release](https://img.shields.io/github/v/release/TheMegamind/PurpleAir_AQI)](https://github.com/TheMegamind/PurpleAir_AQI/releases)
 [![GitHub last commit](https://img.shields.io/github/last-commit/TheMegamind/PurpleAir_AQI)](https://github.com/TheMegamind/PurpleAir_AQI/commits/)
-[![HACS Custom](https://img.shields.io/badge/HACS-Custom-orange.svg)](https://hacs.xyz)
+[![HACS Default](https://img.shields.io/badge/HACS-Default-blue.svg)](https://hacs.xyz)
 [![Home Assistant](https://img.shields.io/badge/Home%20Assistant-2024.4%2B-blue?logo=home-assistant)](https://www.home-assistant.io)
 [![Python](https://img.shields.io/badge/Python-3.14%2B-blue?logo=python&logoColor=white)](https://www.python.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
@@ -69,21 +69,25 @@ For the official EPA AQI color scale and health guidance, see [AirNow AQI Basics
 
 ---
 
-## 📦 Installation (HACS – Custom Repository)
+## 📦 Installation
 
-> *This integration has moved to Release in a new public repository and is in the process of being submitted to  HACS.*
+### HACS (Recommended)
 
-1. Open **HACS → Integrations → Custom repositories**
-2. Add this url:
+PurpleAir AQI is available in the [HACS](https://hacs.xyz) default store.
 
-   ```text
-   https://github.com/TheMegamind/PurpleAir_AQI
-   ```
+[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=TheMegamind&repository=PurpleAir_AQI&category=integration)
 
-3. Category: **Integration**
+Or search for "PurpleAir AQI" in HACS → Integrations.
+
+### HACS Custom Repository
+
+To install a specific version or branch:
+1. Open HACS → Integrations → ⋮ → Custom repositories
+2. Add: `https://github.com/TheMegamind/PurpleAir_AQI`
+3. Category: Integration
 4. Install → Restart Home Assistant
-5. Go to **Settings → Devices & Services → Add Integration**
-6. Select **PurpleAir AQI**
+
+After installation via either method, go to **Settings → Devices & Services → Add Integration** and select **PurpleAir AQI**.
 
 ---
 
